@@ -1,5 +1,6 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 function HomeCollections() {
   return (
@@ -8,12 +9,14 @@ function HomeCollections() {
         <h1 className="text-6xl font-org">
           Our <br /> Collection <br /> Of Jewellery
         </h1>
-        <button className="flex uppercase text-[#311e21] justify-center items-center gap-2 font-org">
-          shop now
-          <div className="border-l-2 border-b-2 text-xl p-2 border-[#311e21] rounded-full ">
-            <GoArrowUpRight />
-          </div>
-        </button>
+        <Link to={"/collections"}>
+          <button className="flex uppercase text-[#311e21] mt-16 justify-center items-center gap-2 font-org">
+            shop now
+            <div className="border-l-2 border-b-2 text-xl p-2 border-[#311e21] rounded-full ">
+              <GoArrowUpRight />
+            </div>
+          </button>
+        </Link>
       </div>
       <div className="flex gap-12 items-center">
         <div className="font-org flex flex-col gap-3">

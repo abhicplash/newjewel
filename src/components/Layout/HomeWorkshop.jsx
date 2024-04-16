@@ -4,7 +4,7 @@ function HomeWorkshop() {
   return (
     <div className="flex md:flex-row flex-col w-full gap-3 md:h-[100vh] bg-[#726f5b] text-[#e7e4e2] px-5 py-6 md:px-32 justify-center items-center relative">
       <h1 className="text-4xl  md:text-7xl md:absolute  font-org md:top-20 md:left-56 ">
-        MoonMagic
+        DTOPAZ
       </h1>
       <h1 className="text-3xl md:text-6xl md:absolute  font-org top-52 left-72">
         WORKSHOP

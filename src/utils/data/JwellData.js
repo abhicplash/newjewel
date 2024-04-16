@@ -74,48 +74,26 @@ import necklace36 from "../../../src/Assets/Images/Necklace/36.jpg";
 import necklace37 from "../../../src/Assets/Images/Necklace/37.jpg";
 import necklace38 from "../../../src/Assets/Images/Necklace/38.jpg";
 
-import ring1 from "../../../src/Assets/Images/Rings/RING 1.png";
-import ring2 from "../../../src/Assets/Images/Rings/RING 2.png";
-import ring3 from "../../../src/Assets/Images/Rings/RING 3.png";
-import ring4 from "../../../src/Assets/Images/Rings/RING 4.png";
-import ring5 from "../../../src/Assets/Images/Rings/RING 5.png";
-import ring6 from "../../../src/Assets/Images/Rings/RING 6.png";
-import ring7 from "../../../src/Assets/Images/Rings/RING 7.png";
-import ring8 from "../../../src/Assets/Images/Rings/RING 8.png";
-import ring9 from "../../../src/Assets/Images/Rings/RING 9.png";
-import ring10 from "../../../src/Assets/Images/Rings/RING 10.png";
-import ring11 from "../../../src/Assets/Images/Rings/RING 11.png";
-import ring12 from "../../../src/Assets/Images/Rings/RING 12.png";
-import ring13 from "../../../src/Assets/Images/Rings/RING 13.png";
-import ring14 from "../../../src/Assets/Images/Rings/RING 14.png";
-import bracelet1 from "../../../src/Assets/Images/Bracelets/Bracelet1.png";
-import bracelet2 from "../../../src/Assets/Images/Bracelets/Bracelet2.png";
-import bracelet3 from "../../../src/Assets/Images/Bracelets/Bracelet3.png";
-import bracelet4 from "../../../src/Assets/Images/Bracelets/Bracelet4.png";
-import bracelet5 from "../../../src/Assets/Images/Bracelets/Bracelet5.png";
-import bracelet6 from "../../../src/Assets/Images/Bracelets/Bracelet6.png";
-import bracelet7 from "../../../src/Assets/Images/Bracelets/Bracelet7.png";
-import bracelet8 from "../../../src/Assets/Images/Bracelets/Bracelet8.png";
-import bracelet9 from "../../../src/Assets/Images/Bracelets/Bracelet9.png";
-import bracelet10 from "../../../src/Assets/Images/Bracelets/Bracelet10.png";
-import bracelet11 from "../../../src/Assets/Images/Bracelets/Bracelet11.png";
+import ring1 from "../../../src/Assets/Images/Rings/1 (1).jpg";
+import ring2 from "../../../src/Assets/Images/Rings/1 (2).jpg";
+import ring3 from "../../../src/Assets/Images/Rings/1 (3).jpg";
+import ring4 from "../../../src/Assets/Images/Rings/1 (4).jpg";
+import ring5 from "../../../src/Assets/Images/Rings/1 (5).jpg";
+import ring6 from "../../../src/Assets/Images/Rings/1 (6).jpg";
+import ring7 from "../../../src/Assets/Images/Rings/1 (7).jpg";
+import ring8 from "../../../src/Assets/Images/Rings/1 (8).jpg";
+import ring9 from "../../../src/Assets/Images/Rings/1 (9).jpg";
+
+import bracelet1 from "../../../src/Assets/Images/others/DSC_4318-Enhanced-NR.jpg";
+import bracelet2 from "../../../src/Assets/Images/others/DSC_4320-Enhanced-NR.jpg";
+import bracelet3 from "../../../src/Assets/Images/others/DSC_4341-Enhanced-NR.jpg";
+import bracelet4 from "../../../src/Assets/Images/others/DSC_4345-Enhanced-NR.jpg";
+import bracelet5 from "../../../src/Assets/Images/others/DSC_4369-Enhanced-NR.jpg";
+import bracelet6 from "../../../src/Assets/Images/others/DSC_4369-Enhanced-NRa.jpg";
+import bracelet7 from "../../../src/Assets/Images/others/DSC_4494-Enhanced-NR.jpg";
+import bracelet8 from "../../../src/Assets/Images/others/DSC_4500 copy.jpg";
 
 export var jweldata = [
-  {
-    id: 1,
-    price: 10,
-    name: "Diamond Richcut",
-    image: EringImg1,
-    quantity: 1
-  },
-  {
-    id: 2,
-    price: 10,
-
-    name: "Diamond Richcut",
-    image: EringImg2,
-    quantity: 1
-  },
   {
     price: 10,
     id: 3,
@@ -149,6 +127,21 @@ export var jweldata = [
     name: "Diamond Richcut",
     price: 10,
     image: EringImg7,
+    quantity: 1
+  },
+  {
+    id: 1,
+    price: 10,
+    name: "Diamond Richcut",
+    image: EringImg1,
+    quantity: 1
+  },
+  {
+    id: 2,
+    price: 10,
+
+    name: "Diamond Richcut",
+    image: EringImg2,
     quantity: 1
   },
   {
@@ -607,31 +600,144 @@ export var jweldata = [
     quantity: 1
   },
   {
-    id: 73,
+    id: 573,
     price: 10,
     name: "necklace",
     image: necklace37,
     quantity: 1
   },
   {
-    id: 74,
+    id: 574,
     price: 10,
     name: "necklace",
     image: necklace38,
     quantity: 1
   },
-  // {
-  //   id: 3,
-  //   price: 10,
-  //   name: "Ring",
-  //   image: ring1,
-  //   quantity: 1
-  // },
   {
-    id: 43,
+    id: 543,
     name: "Bracelet",
     price: 10,
     image: bracelet1,
+    quantity: 1
+  },
+  {
+    id: 545,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet2,
+    quantity: 1
+  }
+  ,
+  {
+    id: 546,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet3,
+    quantity: 1
+  },
+  
+  {
+    id: 547,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet4,
+    quantity: 1
+  },
+  
+  {
+    id: 548,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet5,
+    quantity: 1
+  },
+  
+  {
+    id: 549,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet6,
+    quantity: 1
+  },
+  
+  {
+    id: 550,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet7,
+    quantity: 1
+  },
+  
+  {
+    id: 551,
+    name: "Bracelet",
+    price: 10,
+    image: bracelet8,
+    quantity: 1
+  },
+  {
+    id: 603,
+    price: 10,
+    name: "Ring",
+    image: ring1,
+    quantity: 1
+  },
+  {
+    id: 604,
+    price: 10,
+    name: "Ring",
+    image: ring2,
+    quantity: 1
+  },
+  {
+    id: 605,
+    price: 10,
+    name: "Ring",
+    image: ring3,
+    quantity: 1
+  },
+  
+  {
+    id: 606,
+    price: 10,
+    name: "Ring",
+    image: ring4,
+    quantity: 1
+  },
+  {
+    id: 607,
+    price: 10,
+    name: "Ring",
+    image: ring5,
+    quantity: 1
+  },
+
+  {
+    id: 608,
+    price: 10,
+    name: "Ring",
+    image: ring6,
+    quantity: 1
+  },
+  {
+    id: 609,
+    price: 10,
+    name: "Ring",
+    image: ring7,
+    quantity: 1
+  },
+  {
+    id: 610,
+    price: 10,
+    name: "Ring",
+    image: ring8,
+    quantity: 1
+  },
+  {
+    id: 611,
+    price: 10,
+    name: "Ring",
+    image: ring9,
     quantity: 1
   }
 ];

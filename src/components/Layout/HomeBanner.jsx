@@ -2,6 +2,7 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import model1 from "../../Assets/home/one.jpeg";
 import { IoInfiniteOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function HomeBanner() {
   return (
@@ -20,7 +21,7 @@ function HomeBanner() {
           <h1>Necklace</h1>
           {/* <div className="w-10 h-0.5 bg-[#e6e6e2]"></div> */}
         </div>
-        <div className="flex-col md:gap-10 gap-5 flex text-[#e6e6e2] font-org">
+        <div className="flex-col md:gap-10 gap-5 items-center flex text-[#e6e6e2] font-org">
           <div className=" md:gap-5 gap-1 flex   flex-col  ">
             <h1 className="text-3xl md:text-5xl capitalize">
               authentic hand made
@@ -34,12 +35,16 @@ function HomeBanner() {
               making
             </h1>
           </div>
-          <button className="flex uppercase justify-center items-center gap-2">
-            shop now
-            <div className="border-l-2 border-b-2 text-xl p-2 rounded-full">
-              <GoArrowUpRight />
-            </div>
-          </button>
+          {/* <div> */}
+          <Link to={"/collections"}>
+            <button className="relative z-50 flex uppercase justify-center items-center gap-2">
+              shop now
+              <div className="border-l-2 border-b-2 text-xl p-2 rounded-full">
+                <GoArrowUpRight />
+              </div>
+            </button>
+          </Link>
+          {/* </div> */}
         </div>
         <IoInfiniteOutline className="hidden md:flex text-[#e6e6e2]/10 z-10 to-20 text-[25rem] md:text-[55rem] absolute " />
       </div>

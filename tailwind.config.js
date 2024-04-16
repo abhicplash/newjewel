@@ -9,7 +9,8 @@ module.exports = {
         org: ["Playfair Display", "serif"]
       },
       backgroundImage: {
-        model1: "url('/src/Assets/home/one.jpeg')"
+        model1: "url('/src/Assets/home/one.jpeg')",
+        bannergold: "url('/src/Assets/Images/banner/bnr.jpg')"
       }
     }
   },
