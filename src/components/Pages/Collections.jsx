@@ -75,18 +75,18 @@ function Collections() {
         </div>
         <div className="flex flex-wrap justify-center gap-12 px-28 py-20 ">
           {jweldata.map((list) => (
-            <div className="font-org flex flex-col items-center gap-3">
+            <div className="font-org flex border   shadow-[#382526]  shadow py-2 bg-white flex-col items-center gap-3">
               <Link to={"/collections/" + list.id}>
                 <img
-                  className="cursor-pointer shadow-md shadow-[#382526] 
-                    rounded-b-full rounded-t-full w-60 h-[23rem]"
+                  className="cursor-pointer
+                     w-60 h-[20rem]"
                   src={list.image}
                   alt=""
                 />
               </Link>
               <div>
                 <h1>{list.name}</h1>
-                <h1 className="italic text-[#c6b7a9]">by MOONMAGIC</h1>
+                <h1 className="italic text-[#c6b7a9]">by DTopaz</h1>
                 <h1>$300</h1>
               </div>
             </div>
